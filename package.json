@@ -1,5 +1,5 @@
 {
-  "name": "libnpmpublish",
+  "name": "@evocateur/libnpmpublish",
   "version": "1.1.1",
   "description": "Programmatic API for the bits behind npm publish and unpublish",
   "author": {
@@ -27,12 +27,15 @@
     "weallbehave": "*",
     "weallcontribute": "*"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/libnpmpublish.git"
+    "url": "https://github.com/evocateur/libnpmpublish.git"
   },
-  "bugs": "https://github.com/npm/libnpmpublish/issues",
-  "homepage": "https://npmjs.com/package/libnpmpublish",
+  "bugs": "https://github.com/evocateur/libnpmpublish/issues",
+  "homepage": "https://npmjs.com/package/@evocateur/libnpmpublish",
   "dependencies": {
     "aproba": "^2.0.0",
     "figgy-pudding": "^3.5.1",
