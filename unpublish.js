@@ -2,7 +2,7 @@
 
 const figgyPudding = require('figgy-pudding')
 const npa = require('npm-package-arg')
-const npmFetch = require('npm-registry-fetch')
+const npmFetch = require('@evocateur/npm-registry-fetch')
 const semver = require('semver')
 const url = require('url')
 
