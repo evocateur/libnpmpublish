@@ -53,7 +53,7 @@ test('basic publish', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -112,7 +112,7 @@ test('scoped publish', t => {
       },
       _attachments: {
         '@zkat/libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -182,7 +182,7 @@ test('retry after a conflict', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.1.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -213,7 +213,7 @@ test('retry after a conflict', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -298,7 +298,7 @@ test('retry after a conflict -- no versions on remote', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -375,7 +375,7 @@ test('version conflict', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -451,7 +451,7 @@ test('publish with basic auth', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -512,7 +512,7 @@ test('publish base64 string', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -572,7 +572,7 @@ test('publish tar stream', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -657,7 +657,7 @@ test('publish includes access', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -770,7 +770,7 @@ test('other error code', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -833,7 +833,7 @@ test('publish includes access', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -898,7 +898,7 @@ test('publishConfig on manifest', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -964,7 +964,7 @@ test('publish with encoded _auth', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }
@@ -1023,7 +1023,7 @@ test('publish with 302 redirect', t => {
       },
       _attachments: {
         'libnpmpublish-1.0.0.tgz': {
-          'content_type': 'application/octet-stream',
+          content_type: 'application/octet-stream',
           data: tarData.toString('base64'),
           length: tarData.length
         }

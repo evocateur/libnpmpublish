@@ -68,6 +68,7 @@ function unpublish (spec, opts) {
             return npmFetch.json(pkgUri, opts.concat({
               query: { write: true }
             })).then(({ _rev, _id }) => {
+              // eslint-disable-next-line node/no-deprecated-api
               const tarballUrl = url.parse(dist.tarball).pathname.substr(1)
               return npmFetch(`${tarballUrl}/-rev/${_rev}`, opts.concat({
                 method: 'DELETE',
