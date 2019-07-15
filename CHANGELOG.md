@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.2.1](https://github.com/evocateur/libnpmpublish/compare/v1.2.0...v1.2.1) (2019-07-15)
+
+
+### Bug Fixes
+
+* Bump @evocateur/npm-registry-fetch ([677bf66](https://github.com/evocateur/libnpmpublish/commit/677bf66))
+
+
 
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/evocateur/libnpmpublish/compare/v1.1.2...v1.2.0) (2019-05-08)
